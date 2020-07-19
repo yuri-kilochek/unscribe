@@ -1,0 +1,14 @@
+${GENERATED_FILE_WARNING}
+
+#ifndef UNSCRIBE_DETAIL_INCLUDE_VERSION_HPP
+#define UNSCRIBE_DETAIL_INCLUDE_VERSION_HPP
+
+///////////////////////////////////////////////////////////////////////////////
+
+#define UNSCRIBE_VERSION_MAJOR ${VERSION_MAJOR}
+#define UNSCRIBE_VERSION_MINOR ${VERSION_MINOR}
+#define UNSCRIBE_VERSION_PATCH ${VERSION_PATCH}
+
+///////////////////////////////////////////////////////////////////////////////
+
+#endif
