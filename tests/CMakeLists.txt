@@ -4,7 +4,7 @@ include(doctest)
 add_executable(tests
     main.cpp
 
-    balanced_parens.cpp
+    detail/generator.cpp
 )
 target_link_libraries(tests PRIVATE
     unscribe

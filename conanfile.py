@@ -18,7 +18,6 @@ class UnscribeConan(ConanFile):
         'tests/*',
     )
     generators = (
-        'cmake_paths',
         'cmake_find_package',
     )
     no_copy_source = True
