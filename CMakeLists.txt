@@ -34,7 +34,7 @@ install(
     DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/include/"
               "${CMAKE_CURRENT_BINARY_DIR}/include/"
     DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
-    PATTERN "*.in" EXCLUDE
+    PATTERN "**/*.in" EXCLUDE
 )
 install(TARGETS unscribe EXPORT unscribe)
 install(EXPORT unscribe
