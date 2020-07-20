@@ -10,7 +10,6 @@
 
 #include <unscribe/detail/version_namespace.hpp>
 #include <unscribe/detail/unique_coroutine_handle.hpp>
-#include <unscribe/detail/overload.hpp>
 
 namespace unscribe::inline UNSCRIBE_DETAIL_VERSION_NAMESPACE::detail {
 ///////////////////////////////////////////////////////////////////////////////
