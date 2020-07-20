@@ -60,11 +60,6 @@ struct [[nodiscard]] generator
             return !handle_ || handle_.done();
         }
 
-        friend
-        bool operator==(std::default_sentinel_t, iterator const& it) {
-            return it == std::default_sentinel;
-        }
-
         Value& operator*() const {
             auto& promise = handle_.promise();
             return *promise.value;
