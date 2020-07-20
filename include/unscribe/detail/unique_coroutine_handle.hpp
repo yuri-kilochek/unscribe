@@ -11,8 +11,7 @@ namespace unscribe::inline UNSCRIBE_DETAIL_VERSION_NAMESPACE::detail {
 ///////////////////////////////////////////////////////////////////////////////
 
 template <typename Promise>
-struct unique_coroutine_handle
-{
+struct unique_coroutine_handle {
     using raw_type = std::coroutine_handle<Promise>;
 
     explicit
@@ -51,8 +50,7 @@ struct unique_coroutine_handle
         return *this;
     }
 
-    ~unique_coroutine_handle()
-    {
+    ~unique_coroutine_handle() {
         if (raw_) {
             raw_.destroy();
         }

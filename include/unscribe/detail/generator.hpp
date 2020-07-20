@@ -15,8 +15,7 @@ namespace unscribe::inline UNSCRIBE_DETAIL_VERSION_NAMESPACE::detail {
 ///////////////////////////////////////////////////////////////////////////////
 
 template <typename Value>
-struct [[nodiscard]] generator
-{
+struct [[nodiscard]] generator {
     struct promise_type {
         std::optional<Value> value;
 
